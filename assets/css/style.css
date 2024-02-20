@@ -1,0 +1,93 @@
+
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto-regular";
+}
+
+@font-face {
+    font-family: "Roboto-regular";
+    src: url(assets/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-bold";
+    src: url(assets/Roboto-Bold.ttf);
+}
+
+header{
+    background-image: url(../images/banner-1.jpg);
+    background-position: center;
+}
+
+footer{
+    background-color: rgb(44, 43, 43);
+}
+
+footer > p{
+    color: white;
+    padding: 20px;
+}
+
+h1, h2{
+    font-size: 40px;
+    font-family: "Roboto-bold"
+}
+
+#presentation{
+    color: grey;
+    line-height: 30px;
+}
+
+/*sections*/ 
+
+#firstsection{
+    position: relative;
+    color: white;
+    padding: 100px;
+    line-height: 30px;
+}
+
+#secondsection{
+    padding: 50px;
+}
+
+#thirdsection{
+    background-image: url(../images/banner-2.jpg);
+    height: 400px;
+    background-position: center;
+}
+
+/*buttons*/ 
+/* penser a mettre un HOVER systematiquement*/
+
+#firstbutton{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    margin-block: 15px;
+    border-radius: 50px;
+    border-style: none;
+    font-family: "Roboto-bold";
+    
+}
+
+#firstbutton:hover{
+    background-color: black;
+    color: white;
+}
+
+#secondbutton{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin-block: 15px;
+    border-radius: 25px;
+    border-style: none;
+    font-family: "Roboto-bold";
+}
+#secondbutton:hover {
+    background-color: white;
+    color: black;
+}
